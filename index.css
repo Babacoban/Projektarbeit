@@ -6,22 +6,32 @@
     text-align: justify;
 }
 
-div.left-header {
-    width: 20%;
+div.header-logo {
+    width: 15%;
+    display: flex;
+    padding: 20px; 
+}
+
+div.header-firmenname {
+    width: 15%;
+    display: flex; 
 }
 
 div.header-warenkorb { 
+    width: 15%;
     display: flex;
     padding: 20px;
 }
 
 div.header-login {
+    width: 15%;
     display: flex; 
     padding: 20px; 
 }
 
-div.main-header {
-    width: 60%;
+div.header-suche {
+    width: 40%;
+    padding: 35px;
     text-align: center;
     /*margin: 0 5px;*/
 }
