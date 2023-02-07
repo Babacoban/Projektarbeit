@@ -1,39 +1,70 @@
 /*Header*/
-.header {
-    background-color: #e74646f2;
+div.header { 
     display: flex;
-    padding: 5px;
-    text-align: justify;
+}
+
+div.header>div {
+    padding: 15px;
+    background-color: #f2f2f2f2;
+}
+
+/*left-header*/
+div.left-header {
+    width: 20%;
+    display: flex;
 }
 
 div.header-logo {
-    width: 15%;
-    display: flex;
-    padding: 20px; 
+    position: relative;
+    top: 16px;
+    left: 20px;
 }
 
 div.header-firmenname {
-    width: 15%;
-    display: flex; 
-}
-
-div.header-warenkorb { 
-    width: 15%;
+    position: sticky;
     display: flex;
-    padding: 20px;
+    left: 110px;
 }
 
-div.header-login {
-    width: 15%;
-    display: flex; 
-    padding: 20px; 
+/*right-header*/
+div.right-header {
+    width: 20%;
+}
+
+.button-warenkorb {
+    padding: 10px 20px;
+    background-color: #3b393d;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    right: -30px;
+}
+
+.button-login {
+    padding: 10px 20px;
+    background-color: #3b393d;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    right: -60px;
+}
+
+/*main-header*/
+div.main-header {
+    width: 60%;
+    margin: 0 5px; /*Trennbalken*/
 }
 
 div.header-suche {
-    width: 40%;
-    padding: 35px;
     text-align: center;
-    /*margin: 0 5px;*/
+    position: relative;
+    top: 20px;
 }
 
 /*Navigation*/
@@ -52,7 +83,6 @@ div.navigation>a {
     color: white;
     text-decoration: none;
     padding: 15px;
-
     display: block;
 }
 
@@ -75,6 +105,7 @@ div.right-content {
 div.main-content {
     width: 60%;
     margin: 0 5px;
+    text-align: center;
 }
 
 div.content>div {
