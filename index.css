@@ -6,9 +6,18 @@
     text-align: justify;
 }
 
-div.left-header,
-div.right-header {
+div.left-header {
     width: 20%;
+}
+
+div.header-warenkorb { 
+    display: flex;
+    padding: 20px;
+}
+
+div.header-login {
+    display: flex; 
+    padding: 20px; 
 }
 
 div.main-header {
