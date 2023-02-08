@@ -73,6 +73,7 @@ div.header-suche {
     position: sticky;
     top: 0;
     display: flex;
+    border-radius: 10px;
     /* position: fixed; */
     /* bottom: 50px;
     left: 15px;
@@ -122,4 +123,7 @@ div.footer {
     position: sticky;
     bottom: 0;
 }
+
+
+  
 
