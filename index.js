@@ -7,4 +7,3 @@ btn.addEventListener("click", function() {
   alert("Button wurde gedrückt!");
 });
 
-
